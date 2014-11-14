@@ -13,6 +13,12 @@
 		221B5FF21A14FFAE0092C3EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221B5FF11A14FFAE0092C3EA /* Images.xcassets */; };
 		221B5FF51A14FFAE0092C3EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 221B5FF31A14FFAE0092C3EA /* LaunchScreen.xib */; };
 		221B60011A14FFAE0092C3EA /* _9_Red_BalloonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B60001A14FFAE0092C3EA /* _9_Red_BalloonsTests.swift */; };
+		221B600B1A1500EA0092C3EA /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221B600A1A1500EA0092C3EA /* Balloon.swift */; };
+		221B60121A1501420092C3EA /* BerlinTVTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221B600D1A1501420092C3EA /* BerlinTVTower.jpg */; };
+		221B60131A1501420092C3EA /* RedBalloon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221B600E1A1501420092C3EA /* RedBalloon1.jpg */; };
+		221B60141A1501420092C3EA /* RedBalloon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221B600F1A1501420092C3EA /* RedBalloon2.jpg */; };
+		221B60151A1501420092C3EA /* RedBalloon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221B60101A1501420092C3EA /* RedBalloon3.jpg */; };
+		221B60161A1501420092C3EA /* RedBalloon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221B60111A1501420092C3EA /* RedBalloon4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		221B5FFA1A14FFAE0092C3EA /* 99 Red BalloonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "99 Red BalloonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B5FFF1A14FFAE0092C3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221B60001A14FFAE0092C3EA /* _9_Red_BalloonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9_Red_BalloonsTests.swift; sourceTree = "<group>"; };
+		221B600A1A1500EA0092C3EA /* Balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
+		221B600D1A1501420092C3EA /* BerlinTVTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BerlinTVTower.jpg; sourceTree = "<group>"; };
+		221B600E1A1501420092C3EA /* RedBalloon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon1.jpg; sourceTree = "<group>"; };
+		221B600F1A1501420092C3EA /* RedBalloon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon2.jpg; sourceTree = "<group>"; };
+		221B60101A1501420092C3EA /* RedBalloon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon3.jpg; sourceTree = "<group>"; };
+		221B60111A1501420092C3EA /* RedBalloon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 				221B5FEA1A14FFAE0092C3EA /* AppDelegate.swift */,
 				221B5FEC1A14FFAE0092C3EA /* ViewController.swift */,
 				221B5FEE1A14FFAE0092C3EA /* Main.storyboard */,
+				221B600A1A1500EA0092C3EA /* Balloon.swift */,
 				221B5FF11A14FFAE0092C3EA /* Images.xcassets */,
 				221B5FF31A14FFAE0092C3EA /* LaunchScreen.xib */,
 				221B5FE81A14FFAE0092C3EA /* Supporting Files */,
@@ -90,6 +103,7 @@
 		221B5FE81A14FFAE0092C3EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				221B600C1A1501420092C3EA /* 99RedBalloonsAssets */,
 				221B5FE91A14FFAE0092C3EA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +124,18 @@
 				221B5FFF1A14FFAE0092C3EA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		221B600C1A1501420092C3EA /* 99RedBalloonsAssets */ = {
+			isa = PBXGroup;
+			children = (
+				221B600D1A1501420092C3EA /* BerlinTVTower.jpg */,
+				221B600E1A1501420092C3EA /* RedBalloon1.jpg */,
+				221B600F1A1501420092C3EA /* RedBalloon2.jpg */,
+				221B60101A1501420092C3EA /* RedBalloon3.jpg */,
+				221B60111A1501420092C3EA /* RedBalloon4.jpg */,
+			);
+			path = 99RedBalloonsAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +187,7 @@
 				TargetAttributes = {
 					221B5FE41A14FFAE0092C3EA = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 87MDUSMR9U;
 					};
 					221B5FF91A14FFAE0092C3EA = {
 						CreatedOnToolsVersion = 6.1;
@@ -192,9 +219,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221B60141A1501420092C3EA /* RedBalloon2.jpg in Resources */,
 				221B5FF01A14FFAE0092C3EA /* Main.storyboard in Resources */,
+				221B60151A1501420092C3EA /* RedBalloon3.jpg in Resources */,
 				221B5FF51A14FFAE0092C3EA /* LaunchScreen.xib in Resources */,
+				221B60161A1501420092C3EA /* RedBalloon4.jpg in Resources */,
 				221B5FF21A14FFAE0092C3EA /* Images.xcassets in Resources */,
+				221B60131A1501420092C3EA /* RedBalloon1.jpg in Resources */,
+				221B60121A1501420092C3EA /* BerlinTVTower.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				221B5FED1A14FFAE0092C3EA /* ViewController.swift in Sources */,
+				221B600B1A1500EA0092C3EA /* Balloon.swift in Sources */,
 				221B5FEB1A14FFAE0092C3EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "99 Red Balloons/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "99 Red Balloons/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
